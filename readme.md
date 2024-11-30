@@ -1,15 +1,5 @@
-# Requirement Analysis and Entity-Relationship (ER) Diagram
+# University_server
 
-## Requirement Analysis
+### Requirement Analysis: https://docs.google.com/document/d/1EFUOY82hrEZTCmz25p3OXI0reu6BpR_Obh9cvrDHLa0/edit?usp=sharing
 
-([Requirement Analysis - 👈 Click Here](https://docs.google.com/document/d/10mkjS8boCQzW4xpsESyzwCCLJcM3hvLghyD_TeXPBx0/edit?usp=sharing))
-
-*Description*: This document represents the requirement analysis of part-1.
-
-## Entity-Relationship (ER) Diagram
-
-![ER Diagram](./ER_Diagram.png)
-
-*Description*: This diagram represents the entities and their relationships in the system.
-# university_server
-# university_server
+### Daigram Link: https://drive.google.com/file/d/1WvpIek9IaBjWPsv7bwGbfekL4QIdsfNO/view?usp=sharing
