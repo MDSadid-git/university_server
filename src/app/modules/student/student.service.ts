@@ -3,6 +3,7 @@ import AppError from '../../errors/AppError';
 import { Student } from './student.model';
 import { User } from '../user/user.model';
 import mongoose from 'mongoose';
+import { TStudent } from './student.interface';
 
 const getAllStudentsFromDB = async () => {
   const result = await Student.find();
@@ -51,8 +52,14 @@ const deleteStudentFromDB = async (id: string) => {
   }
 };
 
+const updateStudentIntoDB = async (
+  id: string,
+  payload: Partial<TStudent>,
+) => {};
+
 export const StudentServices = {
   getAllStudentsFromDB,
   getSingleStudentFromDB,
   deleteStudentFromDB,
+  updateStudentIntoDB,
 };
