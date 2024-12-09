@@ -30,7 +30,7 @@ const getAllStudents = async (
   next: NextFunction,
 ) => {
   try {
-    const result = await StudentServices.getAllStudentsFromDB();
+    const result = await StudentServices.getAllStudentsFromDB(req.query);
 
     sendResponse(res, {
       statusCode: httpStatus.OK,
